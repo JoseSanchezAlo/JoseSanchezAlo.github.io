@@ -1,0 +1,81 @@
+*{
+    font-family: 'PT Sans';
+
+}
+
+header{
+    border: 2px solid green;
+    color: green;
+}
+
+img {
+    vertical-align: middle;
+    width: 5%;
+    
+}
+
+nav{
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    display: flex;
+    justify-content: end;
+}
+
+nav label{
+    
+    background-color: green;
+    display: flex;
+    flex-flow: row, wrap;
+    width: 120px;
+    justify-content: center;
+    margin-left: 2px;
+    align-items: center;
+    height: 25px;
+    color: white;
+}
+
+main{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 100px;
+    
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+}
+
+button {
+    border: 2px solid rgba(0, 255, 140, 0.48);
+    background-color: rgba(0, 128, 0, 0.617);
+    color: white;
+}
+
+.tooltiptop{
+    opacity: 0; /* no me deja con visibility: hidden */
+    
+    background: linear-gradient(90deg,rgba(64, 173, 219, 1) 0%, rgba(40, 252, 129, 1) 100%);
+    border-radius: 100% 0% 8% 92% / 50% 69% 31% 50% 
+}
+
+.tooltip:hover .tooltiptop{
+    opacity: 1;
+    transition: ease 0.5s;
+}
+
+.columna:nth-child(1){
+margin: 10px;
+
+}
+.columna:nth-child(2){
+
+height: 300px;
+
+
+}
+
+footer{
+    border: 2px solid green;
+    padding: 10px 20px 30px 0px;
+    text-align: right;
+}
+
+

@@ -1,0 +1,41 @@
+*{
+    font-family: 'PT Sans';
+}
+
+h2{
+    color: green;
+}
+
+img {
+    vertical-align: middle;
+    width: 11%;
+    
+}
+
+button {
+    border: 5px solid rgba(0, 255, 140, 0.48);
+    background-color: rgba(0, 128, 0, 0.617);
+    color: white;
+    padding: 10px;
+}
+
+main{
+    border: 2px solid rgb(211, 211, 211);
+
+    padding: 20px 20px;
+    box-shadow: 0px 0px 35px rgba(0,100,0);
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    background-color: white;
+}
+
+
+
+footer{
+    padding: 55px 20px;
+    text-align: right;
+}

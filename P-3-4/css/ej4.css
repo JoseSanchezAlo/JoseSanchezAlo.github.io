@@ -1,0 +1,67 @@
+*{
+    font-family: 'PT Sans';
+
+}
+
+header{
+    border: 2px solid green;
+    color: green;
+}
+
+nav{
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    display: flex;
+    justify-content: end;
+}
+
+nav label{
+    
+    background-color: green;
+    display: flex;
+    flex-flow: row, wrap;
+    width: 120px;
+    justify-content: center;
+    margin-left: 2px;
+    align-items: center;
+    height: 25px;
+    color: white;
+
+}
+
+main{ 
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    padding: 40px 0px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+main img{
+    width: 200px;
+    
+
+}
+
+.container-producto{
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid; 
+    
+    padding: 15px 15px 50px;
+}
+
+
+
+
+footer{
+    border: 2px solid green;
+    padding: 10px 20px 30px 0px;
+    text-align: right;
+}
+
+
